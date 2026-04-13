@@ -1,5 +1,3 @@
-package Factory;
-
 public class PaypalPayment implements Payment {
 
     @Override

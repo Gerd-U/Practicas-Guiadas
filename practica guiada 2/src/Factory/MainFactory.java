@@ -1,7 +1,6 @@
 
-import Factory.Payment;
 
-public class Main {
+public class MainFactory {
     public static void main(String[] args) {
         PaymentFactory factory1 = new CreditCardFactory();
         Payment payment1 = factory1.createPayment();
